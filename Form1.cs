@@ -21,6 +21,7 @@ namespace Sturdevant_s_Application
         {
             eoDCalculator1.Visible = true;
             cppOrderSheetMain1.Visible = false;
+            speicalOrderSheetMain1.Visible = false;
             eKeystoneOrderSheetMain1.Visible = false;
         }
 
@@ -28,6 +29,7 @@ namespace Sturdevant_s_Application
         {
             eoDCalculator1.Visible = true;
             cppOrderSheetMain1.Visible = false;
+            speicalOrderSheetMain1.Visible = false;
             eKeystoneOrderSheetMain1.Visible = false;
         }
 
@@ -35,6 +37,7 @@ namespace Sturdevant_s_Application
         {
             eoDCalculator1.Visible = false;
             cppOrderSheetMain1.Visible = true;
+            speicalOrderSheetMain1.Visible = false;
             eKeystoneOrderSheetMain1.Visible = false;
         }
 
@@ -42,9 +45,16 @@ namespace Sturdevant_s_Application
         {
             eoDCalculator1.Visible = false;
             cppOrderSheetMain1.Visible = false;
+            speicalOrderSheetMain1.Visible = false;
             eKeystoneOrderSheetMain1.Visible = true;
         }
 
-
+        private void Btn_SpecialOrderPanel_Click(object sender, EventArgs e)
+        {
+            eoDCalculator1.Visible = false;
+            cppOrderSheetMain1.Visible = false;
+            speicalOrderSheetMain1.Visible = true;
+            eKeystoneOrderSheetMain1.Visible = false;
+        }
     }
 }

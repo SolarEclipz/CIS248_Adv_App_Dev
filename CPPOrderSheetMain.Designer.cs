@@ -30,9 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CPPOrderSheetMain));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.cPPOrderSheetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cIS248_ProjectDataSet = new Sturdevant_s_Application.CIS248_ProjectDataSet();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -46,60 +44,42 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton_Update = new System.Windows.Forms.ToolStripButton();
-            this.cPP_Order_SheetTableAdapter = new Sturdevant_s_Application.CIS248_ProjectDataSetTableAdapters.CPP_Order_SheetTableAdapter();
             this.toolStripButton_Save = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Update = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.actIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ticketNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.partNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderQtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.initialsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.whoOrderedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateOrderedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.venderIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.poNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.toolStripLabel_PartNumber = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel_PO = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cIS248_ProjectDataSet1 = new Sturdevant_s_Application.CIS248_ProjectDataSet();
+            this.cPPOrderSheetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.cPP_Order_SheetTableAdapter1 = new Sturdevant_s_Application.CIS248_ProjectDataSetTableAdapters.CPP_Order_SheetTableAdapter();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.actNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.venderNameShortDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.cPPOrderSheetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cIS248_ProjectDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cIS248_ProjectDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cPPOrderSheetBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.actIDDataGridViewTextBoxColumn,
-            this.ticketNumberDataGridViewTextBoxColumn,
-            this.partNumberDataGridViewTextBoxColumn,
-            this.orderQtyDataGridViewTextBoxColumn,
-            this.descriptionDataGridViewTextBoxColumn,
-            this.initialsDataGridViewTextBoxColumn,
-            this.whoOrderedDataGridViewTextBoxColumn,
-            this.dateOrderedDataGridViewTextBoxColumn,
-            this.venderIDDataGridViewTextBoxColumn,
-            this.poNumberDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.cPPOrderSheetBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 74);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1186, 547);
-            this.dataGridView1.TabIndex = 0;
             // 
             // cPPOrderSheetBindingSource
             // 
             this.cPPOrderSheetBindingSource.DataMember = "CPP_Order_Sheet";
-            this.cPPOrderSheetBindingSource.DataSource = this.cIS248_ProjectDataSet;
-            // 
-            // cIS248_ProjectDataSet
-            // 
-            this.cIS248_ProjectDataSet.DataSetName = "CIS248_ProjectDataSet";
-            this.cIS248_ProjectDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bindingNavigator1
             // 
@@ -123,7 +103,12 @@
             this.toolStripButton_Save,
             this.toolStripButton_Update,
             this.toolStripSeparator2,
-            this.toolStripLabel1});
+            this.toolStripLabel1,
+            this.toolStripLabel_PartNumber,
+            this.toolStripTextBox1,
+            this.toolStripSeparator3,
+            this.toolStripLabel_PO,
+            this.toolStripTextBox2});
             this.bindingNavigator1.Location = new System.Drawing.Point(0, 0);
             this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -225,20 +210,6 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton_Update
-            // 
-            this.toolStripButton_Update.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_Update.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Update.Image")));
-            this.toolStripButton_Update.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Update.Name = "toolStripButton_Update";
-            this.toolStripButton_Update.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton_Update.Text = "Update";
-            this.toolStripButton_Update.Click += new System.EventHandler(this.ToolStripButton_Update_Click);
-            // 
-            // cPP_Order_SheetTableAdapter
-            // 
-            this.cPP_Order_SheetTableAdapter.ClearBeforeFill = true;
-            // 
             // toolStripButton_Save
             // 
             this.toolStripButton_Save.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -248,6 +219,16 @@
             this.toolStripButton_Save.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton_Save.Text = "Save";
             this.toolStripButton_Save.Click += new System.EventHandler(this.ToolStripButton_Save_Click);
+            // 
+            // toolStripButton_Update
+            // 
+            this.toolStripButton_Update.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_Update.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Update.Image")));
+            this.toolStripButton_Update.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Update.Name = "toolStripButton_Update";
+            this.toolStripButton_Update.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton_Update.Text = "Update";
+            this.toolStripButton_Update.Click += new System.EventHandler(this.ToolStripButton_Update_Click);
             // 
             // toolStripSeparator2
             // 
@@ -259,136 +240,194 @@
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(0, 22);
             // 
-            // idDataGridViewTextBoxColumn
+            // toolStripLabel_PartNumber
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 50;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Width = 50;
+            this.toolStripLabel_PartNumber.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripLabel_PartNumber.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripLabel_PartNumber.Name = "toolStripLabel_PartNumber";
+            this.toolStripLabel_PartNumber.Size = new System.Drawing.Size(127, 22);
+            this.toolStripLabel_PartNumber.Text = "Filter By Part Number:";
             // 
-            // actIDDataGridViewTextBoxColumn
+            // toolStripTextBox1
             // 
-            this.actIDDataGridViewTextBoxColumn.DataPropertyName = "actID";
-            this.actIDDataGridViewTextBoxColumn.HeaderText = "Account Name";
-            this.actIDDataGridViewTextBoxColumn.MaxInputLength = 100;
-            this.actIDDataGridViewTextBoxColumn.MinimumWidth = 175;
-            this.actIDDataGridViewTextBoxColumn.Name = "actIDDataGridViewTextBoxColumn";
-            this.actIDDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.actIDDataGridViewTextBoxColumn.Width = 175;
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
             // 
-            // ticketNumberDataGridViewTextBoxColumn
+            // toolStripSeparator3
             // 
-            this.ticketNumberDataGridViewTextBoxColumn.DataPropertyName = "ticketNumber";
-            this.ticketNumberDataGridViewTextBoxColumn.HeaderText = "Ticket Number";
-            this.ticketNumberDataGridViewTextBoxColumn.MaxInputLength = 15;
-            this.ticketNumberDataGridViewTextBoxColumn.MinimumWidth = 80;
-            this.ticketNumberDataGridViewTextBoxColumn.Name = "ticketNumberDataGridViewTextBoxColumn";
-            this.ticketNumberDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ticketNumberDataGridViewTextBoxColumn.Width = 80;
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
-            // partNumberDataGridViewTextBoxColumn
+            // toolStripLabel_PO
             // 
-            this.partNumberDataGridViewTextBoxColumn.DataPropertyName = "partNumber";
-            this.partNumberDataGridViewTextBoxColumn.HeaderText = "Part Number";
-            this.partNumberDataGridViewTextBoxColumn.MaxInputLength = 15;
-            this.partNumberDataGridViewTextBoxColumn.MinimumWidth = 100;
-            this.partNumberDataGridViewTextBoxColumn.Name = "partNumberDataGridViewTextBoxColumn";
-            this.partNumberDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.toolStripLabel_PO.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripLabel_PO.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel_PO.Image")));
+            this.toolStripLabel_PO.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripLabel_PO.Name = "toolStripLabel_PO";
+            this.toolStripLabel_PO.Size = new System.Drawing.Size(75, 22);
+            this.toolStripLabel_PO.Text = "Filter By PO:";
             // 
-            // orderQtyDataGridViewTextBoxColumn
+            // toolStripTextBox2
             // 
-            this.orderQtyDataGridViewTextBoxColumn.DataPropertyName = "orderQty";
-            this.orderQtyDataGridViewTextBoxColumn.HeaderText = "Quanity";
-            this.orderQtyDataGridViewTextBoxColumn.MaxInputLength = 2;
-            this.orderQtyDataGridViewTextBoxColumn.MinimumWidth = 50;
-            this.orderQtyDataGridViewTextBoxColumn.Name = "orderQtyDataGridViewTextBoxColumn";
-            this.orderQtyDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.orderQtyDataGridViewTextBoxColumn.Width = 50;
+            this.toolStripTextBox2.Name = "toolStripTextBox2";
+            this.toolStripTextBox2.Size = new System.Drawing.Size(100, 25);
             // 
-            // descriptionDataGridViewTextBoxColumn
+            // toolStrip1
             // 
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
-            this.descriptionDataGridViewTextBoxColumn.MaxInputLength = 300;
-            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 260;
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.descriptionDataGridViewTextBoxColumn.Width = 260;
+            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1186, 25);
+            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.Text = "fillByToolStrip";
             // 
-            // initialsDataGridViewTextBoxColumn
+            // dataGridView1
             // 
-            this.initialsDataGridViewTextBoxColumn.DataPropertyName = "initials";
-            this.initialsDataGridViewTextBoxColumn.HeaderText = "Who Wrote The Order";
-            this.initialsDataGridViewTextBoxColumn.MaxInputLength = 5;
-            this.initialsDataGridViewTextBoxColumn.MinimumWidth = 50;
-            this.initialsDataGridViewTextBoxColumn.Name = "initialsDataGridViewTextBoxColumn";
-            this.initialsDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.initialsDataGridViewTextBoxColumn.Width = 50;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.actNameDataGridViewTextBoxColumn,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.venderNameShortDataGridViewTextBoxColumn,
+            this.dataGridViewTextBoxColumn9});
+            this.dataGridView1.DataSource = this.cPPOrderSheetBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 53);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1186, 568);
+            this.dataGridView1.TabIndex = 3;
             // 
-            // whoOrderedDataGridViewTextBoxColumn
+            // cIS248_ProjectDataSet1
             // 
-            this.whoOrderedDataGridViewTextBoxColumn.DataPropertyName = "whoOrdered";
-            this.whoOrderedDataGridViewTextBoxColumn.HeaderText = "Who Ordered";
-            this.whoOrderedDataGridViewTextBoxColumn.MaxInputLength = 5;
-            this.whoOrderedDataGridViewTextBoxColumn.MinimumWidth = 50;
-            this.whoOrderedDataGridViewTextBoxColumn.Name = "whoOrderedDataGridViewTextBoxColumn";
-            this.whoOrderedDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.whoOrderedDataGridViewTextBoxColumn.Width = 50;
+            this.cIS248_ProjectDataSet1.DataSetName = "CIS248_ProjectDataSet";
+            this.cIS248_ProjectDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dateOrderedDataGridViewTextBoxColumn
+            // cPPOrderSheetBindingSource1
             // 
-            this.dateOrderedDataGridViewTextBoxColumn.DataPropertyName = "dateOrdered";
-            this.dateOrderedDataGridViewTextBoxColumn.HeaderText = "Date Ordered";
-            this.dateOrderedDataGridViewTextBoxColumn.MaxInputLength = 10;
-            this.dateOrderedDataGridViewTextBoxColumn.MinimumWidth = 100;
-            this.dateOrderedDataGridViewTextBoxColumn.Name = "dateOrderedDataGridViewTextBoxColumn";
-            this.dateOrderedDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.cPPOrderSheetBindingSource1.DataMember = "CPP_Order_Sheet";
+            this.cPPOrderSheetBindingSource1.DataSource = this.cIS248_ProjectDataSet1;
             // 
-            // venderIDDataGridViewTextBoxColumn
+            // cPP_Order_SheetTableAdapter1
             // 
-            this.venderIDDataGridViewTextBoxColumn.DataPropertyName = "venderID";
-            this.venderIDDataGridViewTextBoxColumn.HeaderText = "Vender";
-            this.venderIDDataGridViewTextBoxColumn.MinimumWidth = 100;
-            this.venderIDDataGridViewTextBoxColumn.Name = "venderIDDataGridViewTextBoxColumn";
-            this.venderIDDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.cPP_Order_SheetTableAdapter1.ClearBeforeFill = true;
             // 
-            // poNumberDataGridViewTextBoxColumn
+            // dataGridViewTextBoxColumn1
             // 
-            this.poNumberDataGridViewTextBoxColumn.DataPropertyName = "poNumber";
-            this.poNumberDataGridViewTextBoxColumn.HeaderText = "PO # or Ref #";
-            this.poNumberDataGridViewTextBoxColumn.MaxInputLength = 18;
-            this.poNumberDataGridViewTextBoxColumn.MinimumWidth = 125;
-            this.poNumberDataGridViewTextBoxColumn.Name = "poNumberDataGridViewTextBoxColumn";
-            this.poNumberDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.poNumberDataGridViewTextBoxColumn.Width = 125;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Row Number";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn1.Width = 80;
+            // 
+            // actNameDataGridViewTextBoxColumn
+            // 
+            this.actNameDataGridViewTextBoxColumn.DataPropertyName = "actName";
+            this.actNameDataGridViewTextBoxColumn.HeaderText = "Account Name";
+            this.actNameDataGridViewTextBoxColumn.Name = "actNameDataGridViewTextBoxColumn";
+            this.actNameDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.actNameDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "ticketNumber";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Ticket Number";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "partNumber";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Part Number";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "orderQty";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Quanity";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn4.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "description";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Description";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn5.Width = 250;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "initials";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Who Placed The Order";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn6.Width = 75;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "whoOrdered";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Who Ordered";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn7.Width = 75;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "dateOrdered";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Date Ordered";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn8.Width = 90;
+            // 
+            // venderNameShortDataGridViewTextBoxColumn
+            // 
+            this.venderNameShortDataGridViewTextBoxColumn.DataPropertyName = "venderNameShort";
+            this.venderNameShortDataGridViewTextBoxColumn.HeaderText = "Vendor";
+            this.venderNameShortDataGridViewTextBoxColumn.Name = "venderNameShortDataGridViewTextBoxColumn";
+            this.venderNameShortDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.venderNameShortDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "poNumber";
+            this.dataGridViewTextBoxColumn9.HeaderText = "PO # or REF #";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn9.Width = 120;
             // 
             // CPPOrderSheetMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.bindingNavigator1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.bindingNavigator1);
             this.Name = "CPPOrderSheetMain";
             this.Size = new System.Drawing.Size(1186, 621);
             this.Load += new System.EventHandler(this.CPPOrderSheetMain_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cPPOrderSheetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cIS248_ProjectDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cIS248_ProjectDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cPPOrderSheetBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource cPPOrderSheetBindingSource;
-        private CIS248_ProjectDataSet cIS248_ProjectDataSet;
+        //private CIS248_ProjectDataSet cIS248_ProjectDataSet;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
@@ -403,20 +442,41 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton_Update;
-        private CIS248_ProjectDataSetTableAdapters.CPP_Order_SheetTableAdapter cPP_Order_SheetTableAdapter;
+        //private CIS248_ProjectDataSetTableAdapters.CPP_Order_SheetTableAdapter cPP_Order_SheetTableAdapter;
         private System.Windows.Forms.ToolStripButton toolStripButton_Save;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn actIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ticketNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn partNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn orderQtyDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn initialsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn whoOrderedDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateOrderedDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn venderIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn poNumberDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn actIDDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn ticketNumberDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn partNumberDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn orderQtyDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn initialsDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn whoOrderedDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn dateOrderedDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn venderIDDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn poNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox2;
+        private System.Windows.Forms.ToolStripButton toolStripLabel_PartNumber;
+        private System.Windows.Forms.ToolStripButton toolStripLabel_PO;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn actNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn venderNameShortDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.BindingSource cPPOrderSheetBindingSource1;
+        private CIS248_ProjectDataSet cIS248_ProjectDataSet1;
+        private CIS248_ProjectDataSetTableAdapters.CPP_Order_SheetTableAdapter cPP_Order_SheetTableAdapter1;
     }
 }

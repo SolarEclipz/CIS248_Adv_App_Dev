@@ -25,7 +25,7 @@ namespace Sturdevant_s_Application
             this.dataGridView1.RowsDefaultCellStyle.BackColor = Color.Wheat;
             this.dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.Beige;
 
-            this.cPP_Order_SheetTableAdapter.Fill(this.cIS248_ProjectDataSet.CPP_Order_Sheet);
+            this.cPP_Order_SheetTableAdapter1.Fill(this.cIS248_ProjectDataSet1.CPP_Order_Sheet);
         }
 
         private void ToolStripButton_Update_Click(object sender, EventArgs e)
@@ -45,8 +45,8 @@ namespace Sturdevant_s_Application
             try
             {
                 this.Validate();
-                this.cPPOrderSheetBindingSource.EndEdit();
-                this.cPP_Order_SheetTableAdapter.Update(this.cIS248_ProjectDataSet.CPP_Order_Sheet);
+                this.cPPOrderSheetBindingSource1.EndEdit();
+                this.cPP_Order_SheetTableAdapter1.Update(this.cIS248_ProjectDataSet1.CPP_Order_Sheet);
             }
             catch (Exception ex)
             {
