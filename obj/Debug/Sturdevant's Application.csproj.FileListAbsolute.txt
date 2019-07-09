@@ -1,0 +1,36 @@
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.exe.config
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.exe
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.pdb
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csprojAssemblyReference.cache
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.EoD.resources
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.Properties.Resources.resources
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csproj.GenerateResource.cache
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csproj.CoreCompileInputs.cache
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.exe
+F:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.pdb
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.exe.config
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.exe
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Sturdevant's Application.pdb
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.eKeystoneOrderSheetMain.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.EoDCalculator.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.EoD.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.Properties.Resources.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csproj.GenerateResource.cache
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csproj.CoreCompileInputs.cache
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.exe
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.pdb
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_Project.mdf
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_Project_log.ldf
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.CPPOrderSheetMain.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant's Application.csprojAssemblyReference.cache
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CPPOrderSheetMain.resx
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CPPOrderSheetMain.cs
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CPPOrderSheetMain.Designer.cs
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Form1.resx
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Form1.cs
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\Form1.Designer.cs
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\obj\Debug\Sturdevant_s_Application.SpeicalOrderSheetMain.resources
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_ProjectDataSet.Designer.cs
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_ProjectDataSet.xsc
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_ProjectDataSet.xsd
+E:\Semester_6\CIS_248\Unit_One\ArnN_App1\Sturdevant's Application\Sturdevant's Application\bin\Debug\CIS248_ProjectDataSet.xss
